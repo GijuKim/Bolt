@@ -1,0 +1,67 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BOLT</title>
+        <link rel="stylesheet" href="{{ url_for('static',
+            filename='../static/css/style.css')}}">
+    </head>
+    <body>
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="context">
+            <div class="nav_bar">
+                <div style="display: flex;">
+                    <img src="{{ url_for('static',
+                                filename='../static/image_components/bolt.png') }}"
+                        alt
+                        style="width: 30px;">
+                    <p
+                        style="color: #E0D9FA; margin: 0; font-weight: 800; font-size: 18px; position: relative; top: 11px; padding-left: 14px;">Home</p>
+
+                    <div class="nav_bar_rest">
+                        <div
+                            style="width: 20px; border-right: 2px solid#E0D9FA; opacity: 0.5;"></div>
+                        <p class="nav_bar_text">About</p>
+                        <div style="width: 20px;"></div>
+                        <p class="nav_bar_text">Events</p>
+                        <div style="width: 20px;"></div>
+                        <p class="nav_bar_text">Team</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="position: absolute; width: 100%; height: 100%; ">
+                <img src="{{ url_for('static',
+                                filename='../static/image_components/bolt_dog.png') }}"
+                    alt
+                    style="width: 500px; position: relative; left: 25%; top: 50%; transform: translate(-50%, -50%);">
+
+                <b
+                    style="font-size: 100px; position: relative; left: 170px; top: -500px; margin: 0;"><b style="color: #623CE8;">BOLT</b>
+                    UBC</b>
+                <p
+                    style="font-size: 30px; position: relative; left: 680px; top: -500px; margin: 0; width: fit-content;">Unleash
+                    the power of data analytics.</p>
+            </div>
+        </div>
+        <div style="height: 400px;  width: 100%;">
+           <div style="padding: 30px; text-align: center;">
+                <b style="font-size: 40px; color: #363636; text-align: center;">Our Partners</b>
+           </div>
+        </div>
+    </body>
+</html>
